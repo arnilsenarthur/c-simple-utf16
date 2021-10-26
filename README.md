@@ -1,4 +1,4 @@
-# C Simple UTF-8
+# C Simple UTF-16
 
 #### Author: Árnilsen Arthur Castilho Lopes - 2021
 A simple library to deal/support UTF16 strings in pure C.
