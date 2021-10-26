@@ -1,7 +1,7 @@
 # C Simple UTF-8
 
 #### Author: Árnilsen Arthur Castilho Lopes - 2021
-A simple library to deal/support utf16 strings in pure C.
+A simple library to deal/support UTF16 strings in pure C.
 
 ## Features
 - Lightweight code
