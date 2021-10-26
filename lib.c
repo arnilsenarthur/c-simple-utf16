@@ -1,5 +1,5 @@
 /* 
- * This file is part of the C Simple UTF-8 distribution (https://github.com/arnilsenarthur).
+ * This file is part of the C Simple UTF-16 distribution (https://github.com/arnilsenarthur).
  * Copyright (c) 2021 Árnilsen Arthur.
  * 
  * This program is free software: you can redistribute it and/or modify  
