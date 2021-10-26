@@ -52,7 +52,7 @@ void main()
 	//Change a char directly
 	d[1] = 'e';
 	
-	//Output string (Converting to utf8 string again)
+	//Output string (Convert to utf8 string again)
 	printf("%s", utf16_to_utf8(d));
 }
 ```
@@ -71,6 +71,7 @@ void main()
 //Conversion  UTF16 > UTF8
 utf8_string utf16_to_utf8(utf16_string chars);
 utf8_string as_c_str(utf16_string s);
+
 //Conversion  UTF8 > UTF16
 utf16_string utf8_to_utf16(utf8_string chars);
 
