@@ -23,7 +23,7 @@ A simple library to deal/support UTF16 strings in pure C.
 - Emotes take only 2 chars (Less than UTF-8)
 - Easier to work in char level
 - Adopted in Java, C#, etc... 
-- Count the real length of an utf-8 would only need to find the end of the string
+- Count the real length of an utf-16 would only need to find the end of the string
 
 | Character  | UTF-8 (dec) | UTF-16 (dec)| 
 | ------------- | ------------- |--------|
