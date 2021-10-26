@@ -1,5 +1,5 @@
 /* 
- * This file is part of the C Simple UTF-16 distribution (https://github.com/arnilsenarthur).
+ * This file is part of the C Simple UTF-15 distribution (https://github.com/arnilsenarthur).
  * Copyright (c) 2021 Árnilsen Arthur.
  * 
  * This program is free software: you can redistribute it and/or modify  
@@ -52,9 +52,9 @@ size_t utf16_string_length(utf16_string s)
 utf8_string utf16_to_utf8(utf16_string chars)
 {
     utf8_char *str = (utf8_char *)malloc(16);
-    int sz = 16;
-    int n = 0;
-    int i = 0;
+    size_t sz = 16;
+    size_t n = 0;
+    size_t i = 0;
 
     while (true)
     {
@@ -120,8 +120,9 @@ utf16_string utf8_to_utf16(utf8_string chars)
     utf16_char *str = (utf16_char *)malloc(2 * (length + 1));
     str[length] = 0;
 
-    int n = 0;
-    int i = 0;
+    size_t n = 0;
+    size_t i = 0;
+    
     while (true)
     {
         utf8_char ch = chars[i++];
